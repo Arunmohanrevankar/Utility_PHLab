@@ -17,13 +17,14 @@ namespace Utility_PHLab
         private void button2_Click(object sender, EventArgs e)
         {
             count++;
-            textBox2.Text = count.ToString();
+            textBox2.Text ="Total Mouse Click's is  ----------->"   + count.ToString();
 
         }
 
         private void button3_Click(object sender, EventArgs e)
         {
             Form2 frm = new Form2();
+            frm.StartPosition = FormStartPosition.CenterScreen;
             frm.Show();
         }
     }
