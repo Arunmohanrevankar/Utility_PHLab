@@ -17,7 +17,7 @@ namespace Utility_PHLab
         private void button2_Click(object sender, EventArgs e)
         {
             count++;
-            textBox2.Text ="Testing Total Mouse Click's is  ----------->"   + count.ToString();
+            textBox2.Text ="Removed Total Mouse Click's is  ----------->"   + count.ToString();
 
         }
 
